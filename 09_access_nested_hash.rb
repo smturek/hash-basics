@@ -24,3 +24,8 @@ person = {
 #   "122.4167"
 #
 #------- your code below here ---------
+address = person["address"]
+coordinates = address["coordinates"]
+
+p coordinates[:latitude]
+p coordinates[:longitude]

@@ -13,3 +13,6 @@ person = {
 #   "hamburgers"
 #
 #------- your code below here ---------
+foods = person["favorite_foods"]
+
+p foods[1]

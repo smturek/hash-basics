@@ -15,3 +15,9 @@ person = {
 #   "mexican food"
 #
 #------- your code below here ---------
+
+foods = person[:favorite_foods]
+
+p foods[0]
+p foods[1]
+p foods[2]
