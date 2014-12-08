@@ -13,6 +13,4 @@ person = {
 #   "hamburgers"
 #
 #------- your code below here ---------
-foods = person["favorite_foods"]
-
-p foods[1]
+p person["favorite_foods"][1]

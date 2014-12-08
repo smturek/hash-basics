@@ -24,8 +24,6 @@ person = {
 #   "zip_code is 94104"
 #
 #------- your code below here ---------
-address = person["address"]
-
-address.each do |key, value|
+person["address"].each do |key, value|
   p "#{key} is #{value}"
 end

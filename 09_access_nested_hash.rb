@@ -24,8 +24,5 @@ person = {
 #   "122.4167"
 #
 #------- your code below here ---------
-address = person["address"]
-coordinates = address["coordinates"]
-
-p coordinates[:latitude]
-p coordinates[:longitude]
+p person["address"]["coordinates"][:latitude]
+p person["address"]["coordinates"][:longitude]

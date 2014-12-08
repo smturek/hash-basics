@@ -21,3 +21,7 @@ foods = person[:favorite_foods]
 p foods[0]
 p foods[1]
 p foods[2]
+
+p person[:favorite_foods][0]
+p person[:favorite_foods][1]
+p person[:favorite_foods][2]

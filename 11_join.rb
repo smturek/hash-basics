@@ -23,9 +23,4 @@ person = {
 #   "address,favorite_foods,favorite_sport,first_name,last_name,wears_glasses"
 #
 #------- your code below here ---------
-
-person_keys = person.keys
-
-person_keys = person_keys.sort
-
-p person_keys.join(",")
+p person.keys.sort.join(",")
